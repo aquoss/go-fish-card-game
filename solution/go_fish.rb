@@ -10,7 +10,7 @@ module Drawable
   def post_initialize(*args)
     nil
   end
-
+   
   def draw(n=1)
     @cards.pop(n).reverse
   end
